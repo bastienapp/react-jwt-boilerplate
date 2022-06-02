@@ -1,8 +1,7 @@
-import React from "react";
-
 const Logout = () => {
-  const handleSubmit = () => {
-    // Your code here
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // TODO your code here
   };
 
   return (

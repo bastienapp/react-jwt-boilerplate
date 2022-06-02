@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const Users = () => {
   // eslint-disable-next-line no-unused-vars
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    // Your code here
+    // TODO your code here
   }, []);
 
   return (
